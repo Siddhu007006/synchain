@@ -1,0 +1,45 @@
+# Ignore temporary files used during processing
+.tmp/
+
+# Ignore AI assistant configuration (not project code)
+.agent/
+
+# Ignore sensitive credentials and environment variables
+.env
+.env.*
+!.env.example
+.env.local
+credentials.json
+token.json
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+coverage/
+htmlcov/
+
+# Ignore SQLite database files (use Alembic migrations to recreate)
+*.db
+
+# Ignore Node.js / Next.js
+node_modules/
+.next/
+out/
+pnpm-lock.yaml
+tsconfig.tsbuildinfo
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.continue/
+*.log
+
