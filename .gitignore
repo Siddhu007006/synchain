@@ -1,0 +1,52 @@
+# ============================================
+# SynChain .gitignore
+# ============================================
+
+# ---- Environment & Secrets ----
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Coverage ----
+coverage/
+htmlcov/
+.coverage
+*.cover
+
+# ---- SQLite ----
+*.db
+
+# ---- Node.js / Next.js ----
+node_modules/
+.next/
+out/
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.continue/
+.agent/
+
+# ---- Logs & Temp ----
+*.log
+*.tmp
+*.bak
+*.old
